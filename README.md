@@ -22,6 +22,7 @@ What can you use if you want to automate the creation and cleanup of lambda func
 AWS CloudFormation and the AWS Command Line Interface (AWS CLI) 
 
 Which line in the function code tries to retrieve the content type of the object?
+
 const { ContentType } = await s3.getObject(params).promise();
 
 In the test event JSON, what information do you see about the S3 bucket?
@@ -29,4 +30,5 @@ In the test event JSON, what information do you see about the S3 bucket?
 Bucket name, ownerIdentity
 
 What information do you see in the Execution Results tab after running test?
+
 Response returned, function log, when it started and ended.
